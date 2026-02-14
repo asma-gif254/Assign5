@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-           
+
             //Console.WriteLine("Enter A Day Number (1-7) : ");
             //int input = int.Parse(Console.ReadLine());
             //DayOfWeek day = (DayOfWeek)input;
@@ -43,7 +43,40 @@
             //                break;
             //        }
 
+            
+        //        double[,] grades = new double[3, 4];
+        //        double totalSum = 0;
 
-        }
+        //        for (int i = 0; i < 3; i++)
+        //        {
+        //            Console.WriteLine($"--- Enter grades for Student {i + 1} ---");
+        //            for (int j = 0; j < 4; j++)
+        //            {
+        //                Console.Write($"Subject {j + 1}: ");
+        //                grades[i, j] = double.Parse(Console.ReadLine());
+        //            }
+        //            Console.WriteLine();
+        //        }
+
+        //        for (int i = 0; i < 3; i++)
+        //        {
+        //            double studentSum = 0;
+        //            for (int j = 0; j < 4; j++)
+        //            {
+        //                studentSum += grades[i, j];
+        //            }
+
+        //            double studentAverage = studentSum / 4;
+        //            totalSum += studentSum;
+
+        //            Console.WriteLine($"Student {i + 1} Average: {studentAverage:F2}");
+        //        }
+        //        double classAverage = totalSum / (3 * 4);
+        //        Console.WriteLine($"Overall Class Average: {classAverage:F2}");
+        //    }
+        //}
+
+
+
     }
-}
+
